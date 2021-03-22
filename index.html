@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promisification</title>
+</head>
+
+<body>
+    <h1>Promisification</h1>
+    <ul>
+        <li>Task 1
+            <p>Напиши функцию delay(ms), которая возвращает промис, переходящий в состояние "resolved" через ms миллисекунд. Значением исполнившегося промиса должно быть то кол-во миллисекунд которое передали во время вызова функции delay.
+            </p>
+        </li>
+        <li>Task 2
+            <p>Перепиши функцию toggleUserState() так, чтобы она не использовала callback-функцию callback, а принимала всего два параметра allUsers и userName и возвращала промис.</p>
+        </li>
+        <li>Task 3
+            <p>Перепиши функцию makeTransaction() так, чтобы она не использовала callback-функции onSuccess и onError, а принимала всего один параметр transaction и возвращала промис.</p>
+        </li>
+    </ul>
+
+    <script src="./js/task_1.js" type="module"></script>
+    <script src="./js/task_2.js" type="module"></script>
+    <script src="./js/task_3.js" type="module"></script>
+</body>
+
+</html>
